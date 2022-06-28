@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dynamicweb.Translations.GoogleCloudTranslate" Version="0.2.1" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.3.0" />
+    <PackageReference Include="Google.Apis.Translate.v2" Version="1.57.0.875" />
+    <PackageReference Include="GoogleCloudPrintApi" Version="1.6.0" />
+    <PackageReference Include="GoogleTranslateFreeApi" Version="1.1.1" />
+    <PackageReference Include="PresentationFramework" Version="4.6.0" />
+    <PackageReference Include="Telegram.Bot" Version="16.0.2" />
+  </ItemGroup>
+
+</Project>
